@@ -1,0 +1,17 @@
+{
+  "name": "chat-memory-bridge",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "description": "把一个会话的完整对话提纯成可接续的记忆母本",
+  "engines": {
+    "node": ">=22"
+  },
+  "scripts": {
+    "smoke": "node tests/smoke.mjs",
+    "capture": "node scripts/capture-share.mjs",
+    "convert": "node scripts/share-to-md.mjs",
+    "outline": "node scripts/outline.mjs"
+  },
+  "license": "MIT"
+}
