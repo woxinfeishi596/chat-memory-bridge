@@ -4,6 +4,7 @@
 把 AI 长对话抓取、按重要性提纯成记忆母本，下一次开新会话直接喂回去——让压缩后的对话不只是「记得」，而是还原得回来。Capture an AI conversation, distill it into a portable memory seed, and feed it back into your next session — so compression keeps the person, not just the facts.
 
 ##将下面这段话发给你的agent即可：
+
 帮我安装一个技能（skill）
 请按以下步骤执行：
 1. 把 https://github.com/woxinfeishi596/chat-memory-bridge 取到本地，得到一个 chat-memory-bridge 目录（里面有 SKILL.md、README.md、scripts/、references/、assets/、tests/）。
