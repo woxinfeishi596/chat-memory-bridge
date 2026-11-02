@@ -78,8 +78,7 @@
 
 ```bash
 # 0. 验证脚本能跑（造假数据，不动真实文件）
-npm run smoke
-
+node tests/smoke.mjs        # 或 npm run smoke（npm 可用时）
 # 1. 抓接口（浏览器需以 --remote-debugging-port=9222 启动）
 node scripts/capture-share.mjs --url "https://chat.deepseek.com/share/xxxx" -o share-raw.json
 

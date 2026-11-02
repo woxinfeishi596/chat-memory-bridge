@@ -1,0 +1,16 @@
+# 抓下来的原始接口数据，可能含完整对话
+share-raw.json
+*-raw.json
+*.raw.json
+
+# 原始层与提纯层：含隐私，绝不提交
+chat-*.md
+memory*.md
+!assets/memory-template.md
+!README.md
+
+# 系统垃圾
+.DS_Store
+Thumbs.db
+node_modules/
+*.log
